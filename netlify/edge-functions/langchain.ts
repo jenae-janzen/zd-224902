@@ -1,4 +1,4 @@
-import { OpenAIEmbeddings } from "@langchain/openai"
+import {ChatOpenAI} from '@langchain/openai'
 export default async function() {
   const model = new ChatOpenAI({
     apiKey: process.env.OPENAI_API_KEY,
